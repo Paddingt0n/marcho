@@ -1,3 +1,9 @@
 $(function() {
-    console.log(9 - 1);
+    $('.top-slider__inner').slick({
+        dots: true,
+        arrows: false,
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 2000
+      });
 })
